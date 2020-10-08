@@ -3,7 +3,7 @@ set -x #echo on
 
 CHAINCODE_NAME="bank"
 CHANNEL_NAME="appchannel"
-QUERY_PARAMS='{"Args":["readMarble","marble1"]}'
+QUERY_PARAMS='{"Args":["GetAllAssets"]}'
 
 export PEER_HOST=peer2
 export CORE_PEER_ADDRESS=${PEER_HOST}:7051
