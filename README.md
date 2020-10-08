@@ -69,4 +69,4 @@ Get into CLI container
 
 **Invoke TransferBalance**
 
-    peer chaincode invoke -o orderer:7050 --tls --cafile /root/CLI/orgca/orderer/msp/tls/ca.crt -C appchannel -n bank --peerAddresses peer2:7051 --tlsRootCertFiles /root/CLI/orgca/peer2/msp/tls/ca.crt -c '{"Args":["TransferBalance","ark","srk","5"]}'
+    peer chaincode invoke -o orderer:7050 --tls --cafile /root/CLI/orgca/orderer/msp/tls/ca.crt -C appchannel -n bank --peerAddresses peer2:7051 --tlsRootCertFiles /root/CLI/orgca/peer2/msp/tls/ca.crt -c '{"Args":["TransferBalance","ark","srk","5","Friendly Help"]}'
