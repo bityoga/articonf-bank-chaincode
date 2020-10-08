@@ -3,7 +3,7 @@ set -x #echo on
 
 CHAINCODE_NAME="bank"
 CHAINCODE_VERSION="1.0"
-INSTANTIATE_PARAMS='{"Args":["init"]}'
+INSTANTIATE_PARAMS='{"Args":["InitLedger"]}'
 CHANNEL_NAME="appchannel"
 
 export PEER_HOST=peer2
